@@ -22,6 +22,7 @@ func dividedragandmass() {
 	fmt.Println("TBD")
 }
 
-func Total() {
-	fmt.Println("0.5 * MassDensity * OrbitalVelocity * DimensionlessDrag")
+func Total(MassDensity int, OrbitalVelocity int, DimensionlessDrag int) {
+	total = MassDensity * OrbitalVelocity * DimensionlessDrag
+	fmt.Println(total)
 }
